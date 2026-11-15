@@ -1,0 +1,109 @@
+{
+ "note": "Credits for the photographs in this folder: photos.mjs credits prints the footer block for the ones the pages use.",
+ "photos": [
+  {
+   "file": "photo-f41641088-960.webp",
+   "files": [
+    "photo-f41641088-500.webp",
+    "photo-f41641088-960.webp"
+   ],
+   "id": "f41641088",
+   "alt": "Komodo dragon (Varanus komodoensis)",
+   "by": "Charles J. Sharp",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Komodo_dragon_(Varanus_komodoensis).jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-f165993572.webp",
+   "files": [
+    "photo-f165993572-500.webp",
+    "photo-f165993572-960.webp",
+    "photo-f165993572.webp"
+   ],
+   "id": "f165993572",
+   "alt": "Reading Room of John Rylands Library, Deansgate (01)",
+   "by": "Doyle of London",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Reading_Room_of_John_Rylands_Library,_Deansgate_(01).jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-f96594350.webp",
+   "files": [
+    "photo-f96594350-500.webp",
+    "photo-f96594350-960.webp",
+    "photo-f96594350.webp"
+   ],
+   "id": "f96594350",
+   "alt": "Hummingbird in Flight 2",
+   "by": "Noah Wulf",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hummingbird_in_Flight_2.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-f82583102.webp",
+   "files": [
+    "photo-f82583102-500.webp",
+    "photo-f82583102-960.webp",
+    "photo-f82583102.webp"
+   ],
+   "id": "f82583102",
+   "alt": "Dubai skyline unsplash",
+   "by": "Robert Bock",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Dubai_skyline_unsplash.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-f6656042.webp",
+   "files": [
+    "photo-f6656042-500.webp",
+    "photo-f6656042-960.webp",
+    "photo-f6656042.webp"
+   ],
+   "id": "f6656042",
+   "alt": "Dubai skyline in the evening",
+   "by": "Lehtm25",
+   "licence": "Public domain",
+   "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Dubai_skyline_in_the_evening.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-f145383380.webp",
+   "files": [
+    "photo-f145383380-500.webp",
+    "photo-f145383380-960.webp",
+    "photo-f145383380.webp"
+   ],
+   "id": "f145383380",
+   "alt": "Dubai Marina Towers by night",
+   "by": "Gfilip",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Dubai_Marina_Towers_by_night.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-f149269141.webp",
+   "files": [
+    "photo-f149269141-500.webp",
+    "photo-f149269141-960.webp",
+    "photo-f149269141.webp"
+   ],
+   "id": "f149269141",
+   "alt": "Hummingbird in a pine tree",
+   "by": "JoyD Smiths PTMr8",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Hummingbird_in_a_pine_tree.jpg",
+   "source": "Wikimedia Commons"
+  }
+ ]
+}
