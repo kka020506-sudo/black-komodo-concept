@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { base } from "@/lib/base";
 import FlowField from "@/components/FlowField";
 import { HScroll, InView, Lines, Marquee, Parallax, ScrollWords } from "@/components/motion";
 import { Btn } from "@/components/ui";
@@ -11,7 +13,7 @@ export default function Home() {
         <FlowField className="absolute inset-0 h-full w-full" />
         <div className="wipe absolute inset-y-0 end-0 w-full md:w-[58%]" style={{ ["--d" as string]: "200ms" }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/img/komodo.jpg" srcSet="/img/komodo-960.jpg 960w, /img/komodo.jpg 1920w" sizes="(max-width: 767px) 100vw, 58vw" alt="A Komodo dragon walking out of the dark" className="bw h-full w-full object-cover object-[60%_30%] opacity-35 md:opacity-80" style={{ maskImage: "linear-gradient(to right, transparent, #000 45%), linear-gradient(to top, transparent, #000 40%)", maskComposite: "intersect", WebkitMaskComposite: "source-in" }} />
+          <img src={`${base}/img/komodo.jpg`} srcSet={`${base}/img/komodo-960.jpg 960w, ${base}/img/komodo.jpg 1920w`} sizes="(max-width: 767px) 100vw, 58vw" alt="A Komodo dragon walking out of the dark" className="bw h-full w-full object-cover object-[60%_30%] opacity-35 md:opacity-80" style={{ maskImage: "linear-gradient(to right, transparent, #000 45%), linear-gradient(to top, transparent, #000 40%)", maskComposite: "intersect", WebkitMaskComposite: "source-in" }} />
         </div>
         <div className="wrap relative">
           <p className="label rise flex flex-wrap items-center gap-x-4 gap-y-1 text-ink/80">
@@ -81,8 +83,8 @@ export default function Home() {
             <div>
               <p className="display max-w-[12ch] text-[40px] md:text-[clamp(40px,3.6vw,64px)]">The record, and the conversation.</p>
               <div className="mt-8 flex flex-wrap gap-3">
-                <a href="/information-and-papers/" className="btn !border-[#0a0a0a] !text-[#0a0a0a] hover:!text-[#0a0a0a]">Our performance</a>
-                <a href="/contact/" className="btn !border-[#0a0a0a] !bg-[#0a0a0a] !text-ink hover:!text-[#0a0a0a]">Get in touch</a>
+                <Link href="/information-and-papers/" className="btn !border-[#0a0a0a] !text-[#0a0a0a] hover:!text-[#0a0a0a]">Our performance</Link>
+                <Link href="/contact/" className="btn !border-[#0a0a0a] !bg-[#0a0a0a] !text-ink hover:!text-[#0a0a0a]">Get in touch</Link>
               </div>
             </div>
           </article>

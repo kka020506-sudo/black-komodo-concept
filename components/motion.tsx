@@ -1,5 +1,6 @@
 "use client";
 import { motion, useInView, useMotionValueEvent, useReducedMotion, useScroll, useSpring, useTransform } from "motion/react";
+import { base } from "@/lib/base";
 import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from "react";
 
 /* Adds .in once the block scrolls into view; the CSS classes .line, .rise and .wipe do the rest. */
@@ -39,7 +40,7 @@ export function Parallax({ src, alt, className = "", bw = true, amount = 8, eage
   const y = useTransform(scrollYProgress, [0, 1], reduce ? ["0%", "0%"] : [`-${amount}%`, `${amount}%`]);
   return (
     <div ref={ref} className={`relative overflow-hidden ${className}`}>
-      <motion.img src={`/img/${src}.jpg`} srcSet={`/img/${src}-960.jpg 960w, /img/${src}.jpg 1920w`} sizes="100vw" alt={alt} loading={eager ? "eager" : "lazy"} decoding="async"
+      <motion.img src={`${base}/img/${src}.jpg`} srcSet={`${base}/img/${src}-960.jpg 960w, ${base}/img/${src}.jpg 1920w`} sizes="100vw" alt={alt} loading={eager ? "eager" : "lazy"} decoding="async"
         className={`absolute inset-x-0 h-[124%] w-full object-cover ${bw ? "bw" : ""}`} style={{ y, top: "-12%" }} />
     </div>
   );

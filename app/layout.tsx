@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: { default: "Black Komodo Investments: disciplined capital, adaptive intelligence (redesign concept)", template: "%s | Black Komodo Investments (concept)" },
   description: "Unofficial redesign concept for Black Komodo Investments: long-term investment management and specialist research from Dubai.",
   robots: { index: false, follow: false },
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/favicon.svg` },
 };
 export const viewport = { themeColor: "#0a0a0a" };
 
