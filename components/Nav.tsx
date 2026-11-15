@@ -35,7 +35,15 @@ export default function Nav() {
             <Mark />
             <span className="display text-[24px] tracking-[0.02em]">Black Komodo</span>
           </Link>
-          <div className="flex items-center gap-3">
+          <nav className="hidden items-center gap-6 xl:flex 2xl:gap-8" aria-label="Main">
+            {nav.slice(1).map((n) => (
+              <Link key={n.href} href={n.href} aria-current={path === n.href ? "page" : undefined}
+                className={`ulink whitespace-nowrap py-3 text-[14px] font-medium transition-colors duration-200 hover:text-accent 2xl:text-[15px] ${path === n.href ? "text-accent" : ""}`}>
+                {n.label}
+              </Link>
+            ))}
+          </nav>
+          <div className="flex items-center gap-3 xl:hidden">
             <Link href="/contact/" className="ulink hidden px-2 py-3 text-[15px] font-medium sm:block">Get in touch</Link>
             <button type="button" onClick={() => setOpen(!open)} aria-expanded={open} aria-controls="menu"
               className="flex h-12 items-center gap-3 rounded-full border border-current px-5 text-[15px] font-medium transition-transform duration-150 active:scale-[.97]">
